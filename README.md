@@ -31,6 +31,15 @@ My work bridges **game development**, **AI Agent design**, and **blockchain engi
 
 ---
 
+## 💡 Proficient Programming Languages
+
+> Skilled in the following programming languages and cross-language system integration:
+
+* 🦀 Rust     🔧 Golang    🧠 Python
+* 🖥️ C++ / C#   🌐 TypeScript   ☕ Java
+
+---
+
 ## 📫 Let's Connect
 
 - 💬 **My Telegram**: [@a0xfnzero](https://t.me/a0xfnzero)
