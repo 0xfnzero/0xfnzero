@@ -42,7 +42,7 @@ My work bridges **game development**, **AI Agent design**, and **blockchain engi
 
 ## 📫 Let's Connect
 
-- 💬 **My Telegram**: [@a0xfnzero](https://t.me/a0xfnzero)
+- 💬 **My Telegram**: ([@xyz_0xfnzero](https://t.me/xyz_0xfnzero))
 - 📧 **Telegram Group**: ([https://t.me/fnzero_group](https://t.me/fnzero_group))  
 ---
 
