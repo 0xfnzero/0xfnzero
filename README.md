@@ -1,6 +1,6 @@
 # 👋 Hi, I'm 0xfnzero
 
-🎮 Game Developer | 🤖 AI Agent Engineer | 🔗 Smart Contract Builder | ⚡ Solana & EVM DeFi Strategist
+🎮 Game Developer | 🤖 AI Agent Engineer | 🔗 Smart Contract Builder | ⚡ Solana & EVM DeFi Developer
 
 ---
 
