@@ -47,7 +47,7 @@ My work bridges **game development**, **AI Agent design**, and **blockchain engi
 ---
 
 ## 📂 Featured Open Source Projects
-- [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) — A comprehensive Rust SDK for seamless interaction with Solana DEX trading programs.
+- [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) — A comprehensive Rust SDK for seamless interaction with Solana DEX trading programs. This SDK provides a robust set of tools and interfaces to integrate PumpFun, PumpSwap, Bonk, and Raydium CPMM functionality into your applications.
 - [solana-rpc-install](https://github.com/0xfnzero/solana-rpc-install) — Solana Node Installation Guide: Optimize Ubuntu system parameters to allow the Solana node to run on more affordable servers while maintaining good performance and block synchronization speed.
 
 > For more projects, please check out my [GitHub Repositories](https://github.com/0xfnzero?tab=repositories)
