@@ -66,10 +66,13 @@
 
 ---
 
-## 📫 联系我们
+## 📫 联系我们  
 
-* 💬 **Telegram**: [@xyz\_0xfnzero](https://t.me/xyz_0xfnzero)
-* 📧 **Telegram 社区**: [https://t.me/fnzero\_group](https://t.me/fnzero_group)
+| 🤝 商务合作 | 👥 加入社区 |
+|-------------|-------------|
+| [t.me/xyz_0xfnzero](https://t.me/xyz_0xfnzero) | [t.me/fnzero_group](https://t.me/fnzero_group) |
+
+欢迎通过商务合作渠道与我们联系，或加入社区与数百位开发者共同交流。
 
 ---
 

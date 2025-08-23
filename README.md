@@ -66,10 +66,13 @@ Our team is proficient in multiple languages and cross-system integration:
 
 ---
 
-## 📫 Contact Us
+## 📫 Contact Us  
 
-* 💬 **Telegram**: [@xyz\_0xfnzero](https://t.me/xyz_0xfnzero)
-* 📧 **Telegram Group**: [https://t.me/fnzero\_group](https://t.me/fnzero_group)
+| 🤝 Business Inquiries | 👥 Join the Community |
+|------------------------|-----------------------|
+| [t.me/xyz_0xfnzero](https://t.me/xyz_0xfnzero) | [t.me/fnzero_group](https://t.me/fnzero_group) |
+
+Feel free to reach out for business opportunities, or join our community to connect with hundreds of developers.
 
 ---
 
