@@ -10,6 +10,8 @@
 
 We are an open-source team focused on building infrastructure and SDKs for on-chain trading, and we operate a thriving community of hundreds of Solana developers.
 
+---
+
 Our mission is to:
 
 * Build **high-performance trading infrastructure**
