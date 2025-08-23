@@ -1,56 +1,84 @@
-# 👋 Hi, I'm 0xfnzero
 
-🎮 Game Developer | 🤖 AI Agent Engineer | 🔗 Smart Contract Builder | ⚡ Solana & EVM DeFi Developer
+# 👋 Hi, We are **0xfnzero Team**
+[中文](https://github.com/0xfnzero/0xfnzero/blob/main/README_CN.md) | [English](https://github.com/0xfnzero/0xfnzero/blob/main/README.md) | [Telegram](https://t.me/fnzero_group)
 
----
-
-## 🧠 About Me
-
-I’m passionate about building **intelligent systems**, **on-chain tools**, and **high-performance trading infrastructure**.  
-My work bridges **game development**, **AI Agent design**, and **blockchain engineering**.
+🔗 **On-chain Development Team** | ⚡ **Solana & EVM DeFi Development** | 👥 **Community of Hundreds of Developers**
 
 ---
 
-## 🚀 What I Do
+## 🧠 About Us
 
-- 🧩 **AI Agent Development**  
-  Designing autonomous agents capable of real-time analysis, decision-making, and task execution.
+We are a development team focused on **blockchain infrastructure** and **on-chain trading strategies**.
+We also operate a thriving technical community with **hundreds of on-chain trading developers**, dedicated to building within the **Solana and EVM ecosystems**.
 
-- ⚙️ **Blockchain Development**  
-  Expert in building and auditing **Solana** and **EVM** smart contracts.  
-  Maintain and optimize **Solana RPC Nodes**.
+Our mission is to:
 
-- 📈 **On-chain Strategies**  
-  Developing bots for **sniping**, **copy trading**, and **arbitrage** on the Solana blockchain.
-
-- 🛠️ **Open Source SDKs**  
-  Creator of several open-source SDKs to accelerate Solana-based dApp and bot development.
-
-- 🎮 **Game Engineering**  
-  Designing and developing engaging gameplay systems and digital experiences.
+* Build **high-performance trading infrastructure**
+* Advance the development of **open-source tools and SDKs**
+* Foster a **developer community ecosystem** for knowledge sharing and collaboration
 
 ---
 
-## 💡 Proficient Programming Languages
+## 🚀 What We Do
 
-> Skilled in the following programming languages and cross-language system integration:
+* ⚙️ **Blockchain Development**
+
+  * Maintain and optimize **Solana RPC nodes**
+
+* 📈 **On-chain Strategies**
+
+  * Develop automated trading bots for **sniping, copy trading, and arbitrage**
+
+* 🛠️ **Open Source SDKs**
+
+  * Maintain multiple **open-source SDKs** to help developers quickly build dApps and trading systems
+
+* 👥 **Developer Community**
+
+  * A community of hundreds of developers
+  * Regularly share insights and research on on-chain development
+
+---
+
+## 💼 Business Collaboration
+
+* 🔌 **SWQoS Service Integration**
+  Provide streamlined SDK integration to help partners quickly adopt SWQoS services, enhancing product performance and user experience.
+
+* 🚀 **Launchpad Platform Integration**
+  Deliver efficient SDK solutions to integrate your Launchpad platform.
+  Enable developers’ trading bots to participate in your platform’s trades at the very first moment, securing a competitive edge.
+
+* 🖥️ **Bare Metal Server Promotion**
+  Partner with premium bare metal server providers to recommend low-latency, high-bandwidth environments for running nodes and trading systems.
+
+* 📢 **Official Partnership Advertising**
+  Offer ad placements within our community and open-source projects to reach hundreds of on-chain developers and maximize exposure.
+
+---
+
+## 💡 Tech Stack
+
+Our team is proficient in multiple languages and cross-system integration:
 
 * 🦀 Rust     🔧 Golang    🧠 Python
 * 🖥️ C++ / C#   🌐 TypeScript   ☕ Java
 
 ---
 
-## 📫 Let's Connect
+## 📫 Contact Us
 
-- 💬 **My Telegram**: ([@xyz_0xfnzero](https://t.me/xyz_0xfnzero))
-- 📧 **Telegram Group**: ([https://t.me/fnzero_group](https://t.me/fnzero_group))  
+* 💬 **Telegram**: [@xyz\_0xfnzero](https://t.me/xyz_0xfnzero)
+* 📧 **Telegram Group**: [https://t.me/fnzero\_group](https://t.me/fnzero_group)
+
 ---
 
 ## 📂 Featured Open Source Projects
-- [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) — A comprehensive Rust SDK for seamless interaction with Solana DEX trading programs. This SDK provides a robust set of tools and interfaces to integrate PumpFun, PumpSwap, Bonk, and Raydium CPMM functionality into your applications.
-- [solana-rpc-install](https://github.com/0xfnzero/solana-rpc-install) — Solana Node Installation Guide: Optimize Ubuntu system parameters to allow the Solana node to run on more affordable servers while maintaining good performance and block synchronization speed.
 
-> For more projects, please check out my [GitHub Repositories](https://github.com/0xfnzero?tab=repositories)
+* [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) — A Rust SDK integrating PumpFun, PumpSwap, Bonk, and Raydium CPMM into Solana DEX trading with seamless interfaces.
+
+* [solana-rpc-install](https://github.com/0xfnzero/solana-rpc-install) — Solana Node Installation Guide: Optimize Ubuntu system parameters to run nodes on cost-effective servers while maintaining high performance and synchronization.
+
+> For more projects, please check out our [GitHub Repositories](https://github.com/0xfnzero?tab=repositories)
 
 ---
-
