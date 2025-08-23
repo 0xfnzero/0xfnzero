@@ -8,8 +8,7 @@
 
 ## 🧠 About Us
 
-We are a development team focused on **blockchain infrastructure** and **on-chain trading strategies**.
-We also operate a thriving technical community with **hundreds of on-chain trading developers**, dedicated to building within the **Solana and EVM ecosystems**.
+We are an open-source team focused on building infrastructure and SDKs for on-chain trading, and we operate a thriving community of hundreds of Solana developers.
 
 Our mission is to:
 
