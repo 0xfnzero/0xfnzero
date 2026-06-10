@@ -1,88 +1,89 @@
+# 0xfnzero Team
 
-# 👋 Hi, We are **0xfnzero Team**
 [中文](https://github.com/0xfnzero/0xfnzero/blob/main/README_CN.md) | [English](https://github.com/0xfnzero/0xfnzero/blob/main/README.md) | [Website](https://fnzero.dev/) | [Telegram](https://t.me/fnzero_group) | [Discord](https://discord.gg/vuazbGkqQE)
 
-🔗 **On-chain Development Team** | ⚡ **Solana & EVM DeFi Development** | 👥 **Community of Hundreds of Developers**
+Open-source team focused on Solana and EVM trading infrastructure, SDKs, streaming tools, and developer automation.
 
----
+## Contact
 
-## 🧠 About Us
-
-We are an open-source team focused on building infrastructure and SDKs for on-chain trading, and we operate a thriving community of hundreds of Solana developers.
-
----
-
-Our mission is to:
-
-* Build **high-performance trading infrastructure**
-* Advance the development of **open-source tools and SDKs**
-* Foster a **developer community ecosystem** for knowledge sharing and collaboration
-
----
-
-## 🚀 What We Do
-
-* ⚙️ **Blockchain Development**
-
-  * Maintain and optimize **Solana RPC nodes**
-
-* 📈 **On-chain Strategies**
-
-  * Develop automated trading bots for **sniping, copy trading, and arbitrage**
-
-* 🛠️ **Open Source SDKs**
-
-  * Maintain multiple **open-source SDKs** to help developers quickly build dApps and trading systems
-
-* 👥 **Developer Community**
-
-  * A community of hundreds of developers
-  * Regularly share insights and research on on-chain development
-
----
-
-## 💼 Business Collaboration
-
-* 🔌 **SWQoS Service Integration**
-  Provide streamlined SDK integration to help partners quickly adopt SWQoS services, enhancing product performance and user experience.
-
-* 🚀 **Launchpad Platform Integration**
-  Deliver efficient SDK solutions to integrate your Launchpad platform.
-  Enable developers’ trading bots to participate in your platform’s trades at the very first moment, securing a competitive edge.
-
-* 🖥️ **Bare Metal Server Promotion**
-  Partner with premium bare metal server providers to recommend low-latency, high-bandwidth environments for running nodes and trading systems.
-
-* 📢 **Official Partnership Advertising**
-  Offer ad placements within our community and open-source projects to reach hundreds of on-chain developers and maximize exposure.
-
----
-
-## 💡 Tech Stack
-
-Our team is proficient in multiple languages and cross-system integration:
-
-* 🦀 Rust     🔧 Golang    🧠 Python
-* 🖥️ C++ / C#   🌐 TypeScript   ☕ Java
-
----
-
-## 📫 Contact Us  
-
-| 🤝 Business Inquiries | 👥 Join the Community |
-|------------------------|-----------------------|
+| Business | Community |
+| --- | --- |
 | [t.me/xyz_0xfnzero](https://t.me/xyz_0xfnzero) | [t.me/fnzero_group](https://t.me/fnzero_group) |
 
-Feel free to reach out for business opportunities, or join our community to connect with hundreds of developers.
+## Open Source Projects
 
----
+Only public, original 0xfnzero repositories are listed here. Forks and the profile repository itself are excluded.
 
-## 📂 Featured Open Source Projects
+### Solana Trading SDKs and Bots
 
-* [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) — A Rust SDK integrating PumpFun, PumpSwap, Bonk, and Raydium CPMM into Solana DEX trading with seamless interfaces.
+| Project | Stack | Description |
+| --- | --- | --- |
+| [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) | Rust | High-performance Solana DEX trading SDK for PumpFun, PumpSwap, Bonk, Meteora, Raydium, and latency-critical bots. |
+| [sol-trade-sdk-golang](https://github.com/0xfnzero/sol-trade-sdk-golang) | Go | Go SDK for Solana DEX trading with multi-protocol and MEV provider support. |
+| [sol-trade-sdk-nodejs](https://github.com/0xfnzero/sol-trade-sdk-nodejs) | TypeScript | Node.js and TypeScript SDK for Solana DEX trading. |
+| [sol-trade-sdk-python](https://github.com/0xfnzero/sol-trade-sdk-python) | Python | Python SDK for Solana DEX trading and bot development. |
+| [pumpfun-sdk](https://github.com/0xfnzero/pumpfun-sdk) | Rust | Rust SDK for interacting with the PumpFun Solana program. |
+| [sol-trade-router](https://github.com/0xfnzero/sol-trade-router) | Rust | Solana trading route and execution tooling. |
+| [trading-bot-proxy](https://github.com/0xfnzero/trading-bot-proxy) | TypeScript / Rust | Proxy service that exposes simplified APIs for Solana DEX trading bots. |
+| [trading-bot-ts](https://github.com/0xfnzero/trading-bot-ts) | TypeScript | PumpSwap automated trading bot with follow-trading, take-profit, and stop-loss logic. |
+| [trading-proxy-http](https://github.com/0xfnzero/trading-proxy-http) | TypeScript | HTTP proxy tooling for trading systems. |
+| [fnzero-examples](https://github.com/0xfnzero/fnzero-examples) | Rust | Rust examples, SDK usage, trading examples, parser tools, key management, and streaming demos. |
 
-* [solana-rpc-install](https://github.com/0xfnzero/solana-rpc-install) — Solana Node Installation Guide: Optimize Ubuntu system parameters to run nodes on cost-effective servers while maintaining high performance and synchronization.
+### Solana Streaming, Parsing, and Data
 
-> For more projects, please check out our [GitHub Repositories](https://github.com/0xfnzero?tab=repositories)
+| Project | Stack | Description |
+| --- | --- | --- |
+| [solana-streamer](https://github.com/0xfnzero/solana-streamer) | Rust | Real-time Solana DEX event streaming for PumpFun, PumpSwap, Bonk, and Raydium. |
+| [sol-parser-sdk](https://github.com/0xfnzero/sol-parser-sdk) | Rust | Lightweight Rust SDK for parsing and subscribing to Solana DEX events. |
+| [sol-parser-sdk-golang](https://github.com/0xfnzero/sol-parser-sdk-golang) | Go | Go SDK for parsing Solana DEX events via Yellowstone gRPC. |
+| [sol-parser-sdk-nodejs](https://github.com/0xfnzero/sol-parser-sdk-nodejs) | TypeScript | Node.js and TypeScript SDK for real-time Solana DEX event parsing. |
+| [sol-parser-sdk-python](https://github.com/0xfnzero/sol-parser-sdk-python) | Python | Python SDK for real-time Solana DEX event parsing. |
+| [parser-proxy-ws](https://github.com/0xfnzero/parser-proxy-ws) | Rust | WebSocket proxy for streaming parsed Solana DEX events to clients. |
+| [parser-proxy-unixsocket](https://github.com/0xfnzero/parser-proxy-unixsocket) | Rust | Unix socket proxy for parser and streaming pipelines. |
+| [sol-shred-sdk](https://github.com/0xfnzero/sol-shred-sdk) | Rust | Shredstream client for subscribing to and processing Solana transaction data. |
+| [grpc-benchmark](https://github.com/0xfnzero/grpc-benchmark) | Rust | Prebuilt Rust gRPC benchmarking tool for Yellowstone and streaming infrastructure. |
+| [solana-program-idls](https://github.com/0xfnzero/solana-program-idls) | IDL | Program IDL collection for PumpFun, Bonk, Raydium, Meteora, Orca, and related Solana protocols. |
 
----
+### Solana Infrastructure, Security, and Operations
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| [solana-rpc-install](https://github.com/0xfnzero/solana-rpc-install) | Shell | Solana RPC node installation and Ubuntu optimization guide. |
+| [jito-shredstream-install](https://github.com/0xfnzero/jito-shredstream-install) | Shell | Jito Shredstream installation guide. |
+| [sol-safekey](https://github.com/0xfnzero/sol-safekey) | Rust | CLI for securely generating, managing, splitting, and encrypting Solana private keys. |
+| [sol-safekey-ui](https://github.com/0xfnzero/sol-safekey-ui) | TypeScript | Web UI for secure Solana wallet and keystore management. |
+| [solana-bot-dev-skills](https://github.com/0xfnzero/solana-bot-dev-skills) | Shell | Agent skills for Codex, Claude Code, Cursor, and other AI coding agents building Solana trading bots. |
+
+### BSC and EVM Trading
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| [four-trading-sdk](https://github.com/0xfnzero/four-trading-sdk) | TypeScript | SDK for trading tokens on the Four.Meme launch platform on BSC. |
+| [pancakeswap-sdk](https://github.com/0xfnzero/pancakeswap-sdk) | TypeScript | SDK for PancakeSwap V2 trading, liquidity, and event monitoring on BSC. |
+
+### Fzstream
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| [fzstream-client](https://github.com/0xfnzero/fzstream-client) | Rust | Fzstream client. |
+| [fzstream-common](https://github.com/0xfnzero/fzstream-common) | Rust | Common Fzstream library. |
+| [fzstream-demo](https://github.com/0xfnzero/fzstream-demo) | Rust | Fzstream demo project. |
+
+### AI and Developer Automation
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| [AI-Code-Tutorials](https://github.com/0xfnzero/AI-Code-Tutorials) | Docs | Claude Code, Codex, OpenAI, and AI-assisted programming tutorials. |
+| [hermes-gui](https://github.com/0xfnzero/hermes-gui) | Python | PySide6 desktop interface for the Hermes AI Agent. |
+| [shop-ai](https://github.com/0xfnzero/shop-ai) | Python | AI application project. |
+
+### Utilities, Docs, and Other Projects
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| [fxpoi](https://github.com/0xfnzero/fxpoi) | Java | Flutter plugin for reading and exporting Excel and CSV files. |
+| [ServerReport](https://github.com/0xfnzero/ServerReport) | Docs | Bare metal server selection and risk-avoidance guide. |
+| [k8s-notes](https://github.com/0xfnzero/k8s-notes) | Shell | Kubernetes notes. |
+| [install-scripts](https://github.com/0xfnzero/install-scripts) | Shell | Installation scripts. |
+| [sdk-documents](https://github.com/0xfnzero/sdk-documents) | Docs | SDK documentation repository. |
+| [YiSphere](https://github.com/0xfnzero/YiSphere) | Python | AI-assisted Chinese metaphysics and natural-language divination application. |
