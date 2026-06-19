@@ -4,6 +4,15 @@
 
 专注于 Solana 与 EVM 交易基础设施、SDK、实时流式数据工具和开发者自动化的开源团队。
 
+## 重点方向
+
+| 方向 | 项目与关键词 |
+| --- | --- |
+| Solana 交易基础设施 | Rust、Go、TypeScript、Python SDK，覆盖 PumpFun、PumpSwap、Raydium、Meteora、Bonk 和低延迟交易 Bot。 |
+| 实时数据与解析 | Yellowstone gRPC、Jito ShredStream、Shredstream 客户端、DEX 事件解析、WebSocket 和 Unix socket parser proxy。 |
+| 钱包安全与运维 | Solana RPC 部署、Jito Shredstream 部署、私钥安全管理、Keystore 工作流和钱包 UI 工具。 |
+| AI 开发者自动化 | Claude Code、Codex、AI 编程教程、Agent 技能和开发者工作流桌面 GUI。 |
+
 ## 联系方式
 
 - Website: [fnzero.dev](https://fnzero.dev/)

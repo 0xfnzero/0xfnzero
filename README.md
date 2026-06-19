@@ -4,6 +4,15 @@
 
 Open-source team focused on Solana and EVM trading infrastructure, SDKs, streaming tools, and developer automation.
 
+## Focus Areas
+
+| Area | Projects and keywords |
+| --- | --- |
+| Solana trading infrastructure | Rust, Go, TypeScript, and Python SDKs for PumpFun, PumpSwap, Raydium, Meteora, Bonk, and low-latency trading bots. |
+| Real-time data and parsers | Yellowstone gRPC, Jito ShredStream, Shredstream clients, DEX event parsers, WebSocket and Unix socket parser proxies. |
+| Wallet security and operations | Solana RPC setup, Jito Shredstream deployment, secure private key management, keystore workflows, and wallet UI tools. |
+| AI developer automation | Claude Code, Codex, AI coding tutorials, agent skills, and desktop GUI tools for developer workflows. |
+
 ## Contact
 
 - Website: [fnzero.dev](https://fnzero.dev/)
