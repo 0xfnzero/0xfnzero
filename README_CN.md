@@ -1,17 +1,18 @@
 # Fnzero Community
 
-[中文](https://github.com/0xfnzero/0xfnzero/blob/main/README_CN.md) | [English](https://github.com/0xfnzero/0xfnzero/blob/main/README.md) | [Website](https://fnzero.dev/) | [Telegram](https://t.me/fnzero_group) | [Discord](https://discord.gg/vuazbGkqQE)
+[中文](./README_CN.md) | [English](./README.md) | [Website](https://fnzero.dev/) | [Telegram](https://t.me/fnzero_group) | [Discord](https://discord.gg/vuazbGkqQE)
 
-专注于 Solana 与 EVM 交易基础设施、SDK、实时流式数据工具和开发者自动化的开源团队。
+专注于 Solana 交易基础设施、DEX 事件解析、Yellowstone gRPC / Jito ShredStream 工具、钱包安全和 AI 开发者自动化的开源团队。
 
 ## 重点方向
 
-| 方向 | 项目与关键词 |
+| 方向 | 我们在做什么 |
 | --- | --- |
-| Solana 交易基础设施 | Rust、Go、TypeScript、Python SDK，覆盖 PumpFun、PumpSwap、Raydium、Meteora、Bonk 和低延迟交易 Bot。 |
-| 实时数据与解析 | Yellowstone gRPC、Jito ShredStream、Shredstream 客户端、DEX 事件解析、WebSocket 和 Unix socket parser proxy。 |
-| 钱包安全与运维 | Solana RPC 部署、Jito Shredstream 部署、私钥安全管理、Keystore 工作流和钱包 UI 工具。 |
-| AI 开发者自动化 | Claude Code、Codex、AI 编程教程、Agent 技能和开发者工作流桌面 GUI。 |
+| Solana 交易 SDK | Rust、TypeScript、Go、Python SDK，覆盖 Pump.fun、PumpSwap、Bonk、Raydium、Meteora、Jito、SWQoS 和 Bot 执行链路。 |
+| 实时数据 | Yellowstone gRPC、Jito ShredStream、RPC 交易、账户数据和 DEX 事件的解析与流式工具。 |
+| 钱包安全 | 本地优先的钱包工具、加密 keystore、WSOL 操作、durable nonce 流程和桌面钱包 UI。 |
+| 基础设施 | Solana RPC 安装脚本、ShredStream 部署、性能压测、IDL 目录、示例和运维指南。 |
+| AI 开发者工具 | Codex、Claude Code、Cursor 相关教程与 Agent 技能，服务 Solana Bot 开发。 |
 
 ## 联系方式
 
@@ -20,79 +21,60 @@
 - Discord: [discord.gg/vuazbGkqQE](https://discord.gg/vuazbGkqQE)
 - 商务合作: [t.me/xyz_0xfnzero](https://t.me/xyz_0xfnzero)
 
-## 开源项目
+## 公开项目
 
-这里只列 0xfnzero 的 public 原创项目，不包含 fork 项目，也不包含 GitHub 主页仓库本身。
+这里只列当前公开、非 fork 的仓库。私有、归档、已删除、fork 和内部仓库会刻意省略。
 
 ### Solana 交易 SDK 与 Bot
 
-| 项目 | 简介 |
-| --- | --- |
-| [sol&#8209;trade&#8209;sdk](https://github.com/0xfnzero/sol-trade-sdk) | 高性能 Solana DEX 交易 SDK，支持 PumpFun、PumpSwap、Bonk、Meteora、Raydium 等协议，适合低延迟交易 Bot。 |
-| [sol&#8209;trade&#8209;sdk&#8209;golang](https://github.com/0xfnzero/sol-trade-sdk-golang) | Go 版本 Solana DEX 交易 SDK，支持多协议与 MEV 服务商。 |
-| [sol&#8209;trade&#8209;sdk&#8209;nodejs](https://github.com/0xfnzero/sol-trade-sdk-nodejs) | Node.js / TypeScript 版本 Solana DEX 交易 SDK。 |
-| [sol&#8209;trade&#8209;sdk&#8209;python](https://github.com/0xfnzero/sol-trade-sdk-python) | Python 版本 Solana DEX 交易 SDK，适合快速开发交易策略与 Bot。 |
-| [pumpfun&#8209;sdk](https://github.com/0xfnzero/pumpfun-sdk) | PumpFun Solana 程序交互 Rust SDK。 |
-| [sol&#8209;trade&#8209;router](https://github.com/0xfnzero/sol-trade-router) | Solana 交易路由与执行工具。 |
-| [trading&#8209;bot&#8209;proxy](https://github.com/0xfnzero/trading-bot-proxy) | 面向 Solana DEX 交易 Bot 的代理服务，封装复杂链上交互为简单 API。 |
-| [trading&#8209;bot&#8209;ts](https://github.com/0xfnzero/trading-bot-ts) | PumpSwap 自动交易 Bot，包含跟单、止盈和止损逻辑。 |
-| [trading&#8209;proxy&#8209;http](https://github.com/0xfnzero/trading-proxy-http) | 面向交易系统的 HTTP 代理工具。 |
-| [fnzero&#8209;examples](https://github.com/0xfnzero/fnzero-examples) | Rust 示例集合，覆盖 SDK 用法、交易案例、解析工具、密钥管理和实时流式数据。 |
+| 项目 | 技术栈 | 简介 |
+| --- | --- | --- |
+| [sol-trade-sdk](https://github.com/0xfnzero/sol-trade-sdk) | Rust | 低延迟 Solana DEX 交易 SDK，支持 Pump.fun、PumpSwap、Bonk、Raydium、Meteora、Jito 和 SWQoS 通道。 |
+| [sol-trade-sdk-nodejs](https://github.com/0xfnzero/sol-trade-sdk-nodejs) | TypeScript | Solana DEX 交易 Bot TypeScript SDK，与 Rust SDK 保持能力对齐。 |
+| [sol-trade-sdk-golang](https://github.com/0xfnzero/sol-trade-sdk-golang) | Go | Solana DEX 交易 Bot Go SDK，支持多协议执行链路。 |
+| [sol-trade-sdk-python](https://github.com/0xfnzero/sol-trade-sdk-python) | Python | Solana DEX 异步交易 Python SDK，适合策略和 Bot 快速开发。 |
+| [pumpfun-sdk](https://github.com/0xfnzero/pumpfun-sdk) | Rust | Pump.fun SDK，支持创建代币、买卖、日志、Yellowstone gRPC 订阅和多通道交易提交。 |
+| [sol-trade-router](https://github.com/0xfnzero/sol-trade-router) | Rust | Raydium 与 Pump / PumpAMM 买卖指令路由的链上 AMM proxy 和交易 router。 |
+| [trading-bot-proxy](https://github.com/0xfnzero/trading-bot-proxy) | TypeScript | 交易 Bot proxy，提供 Unix Socket + Protobuf 事件流、HTTP 交易命令和 TypeScript 参考 Bot。 |
+| [trading-bot-ts](https://github.com/0xfnzero/trading-bot-ts) | TypeScript | PumpSwap 跟单 Bot，包含连续买入检测、止盈、止损和 proxy 集成。 |
+| [fnzero-examples](https://github.com/0xfnzero/fnzero-examples) | Rust | Pump.fun、PumpSwap、Yellowstone gRPC、ShredStream、SWQoS 和 SafeKey 流程的可运行示例。 |
 
 ### Solana 流式数据、解析与数据资产
 
-| 项目 | 简介 |
-| --- | --- |
-| [solana&#8209;streamer](https://github.com/0xfnzero/solana-streamer) | Solana DEX 实时事件流工具，支持 PumpFun、PumpSwap、Bonk、Raydium 等协议。 |
-| [sol&#8209;parser&#8209;sdk](https://github.com/0xfnzero/sol-parser-sdk) | 轻量级 Rust SDK，用于解析和订阅 Solana DEX 事件。 |
-| [sol&#8209;parser&#8209;sdk&#8209;golang](https://github.com/0xfnzero/sol-parser-sdk-golang) | 通过 Yellowstone gRPC 实时解析 Solana DEX 事件的 Go SDK。 |
-| [sol&#8209;parser&#8209;sdk&#8209;nodejs](https://github.com/0xfnzero/sol-parser-sdk-nodejs) | Node.js / TypeScript 版本 Solana DEX 实时事件解析 SDK。 |
-| [sol&#8209;parser&#8209;sdk&#8209;python](https://github.com/0xfnzero/sol-parser-sdk-python) | Python 版本 Solana DEX 实时事件解析 SDK。 |
-| [parser&#8209;proxy&#8209;ws](https://github.com/0xfnzero/parser-proxy-ws) | 将已解析的 Solana DEX 事件通过 WebSocket 推送给客户端的代理服务。 |
-| [parser&#8209;proxy&#8209;unixsocket](https://github.com/0xfnzero/parser-proxy-unixsocket) | 面向解析与流式数据管线的 Unix socket 代理。 |
-| [sol&#8209;shred&#8209;sdk](https://github.com/0xfnzero/sol-shred-sdk) | Shredstream 客户端，用于订阅和处理 Solana 交易数据。 |
-| [grpc&#8209;benchmark](https://github.com/0xfnzero/grpc-benchmark) | Rust 版 gRPC 压测工具，面向 Yellowstone 与实时流式基础设施。 |
-| [solana&#8209;program&#8209;idls](https://github.com/0xfnzero/solana-program-idls) | PumpFun、Bonk、Raydium、Meteora、Orca 等 Solana 协议 Program IDL 集合。 |
+| 项目 | 技术栈 | 简介 |
+| --- | --- | --- |
+| [solana-streamer](https://github.com/0xfnzero/solana-streamer) | Rust | 基于 parser、Yellowstone gRPC、Jito ShredStream 和 RPC 解析的 DEX 事件流 SDK。 |
+| [sol-parser-sdk](https://github.com/0xfnzero/sol-parser-sdk) | Rust | Solana DEX 事件解析核心，覆盖 Yellowstone gRPC、Jito ShredStream、RPC 交易和账户数据。 |
+| [sol-parser-sdk-nodejs](https://github.com/0xfnzero/sol-parser-sdk-nodejs) | TypeScript | Solana DEX 事件和账户数据 TypeScript parser SDK。 |
+| [sol-parser-sdk-golang](https://github.com/0xfnzero/sol-parser-sdk-golang) | Go | Solana DEX 事件 Go parser SDK。 |
+| [sol-parser-sdk-python](https://github.com/0xfnzero/sol-parser-sdk-python) | Python | Solana DEX 事件 Python parser SDK。 |
+| [parser-proxy-ws](https://github.com/0xfnzero/parser-proxy-ws) | Rust | 实时 Solana DEX 事件 WebSocket proxy，提供 HTML、TypeScript 和 Python 客户端示例。 |
+| [sol-shred-sdk](https://github.com/0xfnzero/sol-shred-sdk) | Rust | ShredStream gRPC 客户端，用于 Solana 交易 entries、Pump.fun 回调和低延迟管线。 |
+| [grpc-benchmark](https://github.com/0xfnzero/grpc-benchmark) | Rust | 面向 Solana Yellowstone gRPC、FzStream 对比、延迟测试和 Jito 性能的压测工具。 |
+| [solana-program-idls](https://github.com/0xfnzero/solana-program-idls) | IDLs | Pump.fun、PumpSwap、Raydium、Meteora、Orca 和 SDK 集成所需 Program IDL 目录。 |
 
-### Solana 基础设施、安全与运维
+### 钱包、基础设施与运维
 
-| 项目 | 简介 |
-| --- | --- |
-| [solana&#8209;rpc&#8209;install](https://github.com/0xfnzero/solana-rpc-install) | Solana RPC 节点安装与 Ubuntu 系统参数优化指南。 |
-| [jito&#8209;shredstream&#8209;install](https://github.com/0xfnzero/jito-shredstream-install) | Jito Shredstream 安装指南。 |
-| [sol&#8209;safekey](https://github.com/0xfnzero/sol-safekey) | Solana 私钥安全生成、管理、分片和加密 CLI 工具。 |
-| [sol&#8209;safekey&#8209;ui](https://github.com/0xfnzero/sol-safekey-ui) | Solana 钱包与 keystore 安全管理 Web UI。 |
-| [solana&#8209;bot&#8209;dev&#8209;skills](https://github.com/0xfnzero/solana-bot-dev-skills) | 面向 Codex、Claude Code、Cursor 等 AI 编程 Agent 的 Solana Bot 开发技能。 |
+| 项目 | 技术栈 | 简介 |
+| --- | --- | --- |
+| [sol-safekey](https://github.com/0xfnzero/sol-safekey) | Rust | Solana 钱包密钥管理 CLI 和库，支持加密 keystore、2FA/3FA、转账和 WSOL 工具。 |
+| [sol-safekey-ui](https://github.com/0xfnzero/sol-safekey-ui) | TypeScript / Rust | 本地优先 Solana 钱包、keystore 管理器、Squads v4 多签工作台、SPL Token 看板和桌面应用。 |
+| [solana-rpc-install](https://github.com/0xfnzero/solana-rpc-install) | Shell | Ubuntu Solana RPC 节点安装脚本，覆盖 Jito Solana / Agave、Yellowstone gRPC、NVMe 调优、快照和监控。 |
+| [jito-shredstream-install](https://github.com/0xfnzero/jito-shredstream-install) | Shell | 面向验证节点、RPC 节点、交易 Bot 和 parser 基础设施的 Jito ShredStream proxy 安装脚本。 |
+| [ServerReport](https://github.com/0xfnzero/ServerReport) | Docs | 低成本 Solana RPC 裸金属服务器硬件、服务商、地区和稳定性取舍记录。 |
+| [k8s-notes](https://github.com/0xfnzero/k8s-notes) | Shell | kubeadm、Docker、Flannel 网络和 Nginx 示例相关 Kubernetes 笔记与脚本。 |
 
 ### BSC 与 EVM 交易
 
-| 项目 | 简介 |
-| --- | --- |
-| [four&#8209;trading&#8209;sdk](https://github.com/0xfnzero/four-trading-sdk) | Four.Meme BSC Launchpad 代币交易 SDK。 |
-| [pancakeswap&#8209;sdk](https://github.com/0xfnzero/pancakeswap-sdk) | PancakeSwap V2 交易、流动性管理与链上事件监听 SDK。 |
-
-### Fzstream
-
-| 项目 | 简介 |
-| --- | --- |
-| [fzstream&#8209;client](https://github.com/0xfnzero/fzstream-client) | Fzstream 客户端。 |
-| [fzstream&#8209;common](https://github.com/0xfnzero/fzstream-common) | Fzstream 公共库。 |
-| [fzstream&#8209;demo](https://github.com/0xfnzero/fzstream-demo) | Fzstream 示例项目。 |
+| 项目 | 技术栈 | 简介 |
+| --- | --- | --- |
+| [four-trading-sdk](https://github.com/0xfnzero/four-trading-sdk) | TypeScript | FOUR.meme BNB Smart Chain 代币交易 SDK，支持创建、买卖、报价、滑点检查和事件监听。 |
+| [pancakeswap-sdk](https://github.com/0xfnzero/pancakeswap-sdk) | TypeScript | PancakeSwap V2 SDK，支持 swap、流动性管理、价格报价、AMM 工具和事件监听。 |
 
 ### AI 与开发者自动化
 
-| 项目 | 简介 |
-| --- | --- |
-| [AI&#8209;Code&#8209;Tutorials](https://github.com/0xfnzero/AI-Code-Tutorials) | Claude Code、Codex、OpenAI 与 AI 辅助编程教程。 |
-| [hermes&#8209;gui](https://github.com/0xfnzero/hermes-gui) | Hermes AI Agent 的 PySide6 桌面端界面。 |
-
-### 工具、文档与其它项目
-
-| 项目 | 简介 |
-| --- | --- |
-| [fxpoi](https://github.com/0xfnzero/fxpoi) | 用于读取和导出 Excel / CSV 的 Flutter 插件。 |
-| [ServerReport](https://github.com/0xfnzero/ServerReport) | 裸金属服务器选择与避坑指南。 |
-| [k8s&#8209;notes](https://github.com/0xfnzero/k8s-notes) | Kubernetes 笔记。 |
-| [install&#8209;scripts](https://github.com/0xfnzero/install-scripts) | 安装脚本集合。 |
-| [sdk&#8209;documents](https://github.com/0xfnzero/sdk-documents) | SDK 文档仓库。 |
-| [YiSphere](https://github.com/0xfnzero/YiSphere) | AI 辅助的易学与自然语言占卜应用。 |
+| 项目 | 技术栈 | 简介 |
+| --- | --- | --- |
+| [AI-Code-Tutorials](https://github.com/0xfnzero/AI-Code-Tutorials) | Docs | Claude Code 和 OpenAI Codex 双语教程，覆盖安装、CLI 工作流、MCP、Agent、代码审查和提示词。 |
+| [solana-bot-dev-skills](https://github.com/0xfnzero/solana-bot-dev-skills) | Shell | 面向 Codex、Claude Code、Cursor 等 AI 编程 Agent 的 Solana 交易 Bot 开发技能。 |
+| [YiSphere](https://github.com/0xfnzero/YiSphere) | Python | AI 易经、八字、六爻、黄历、取名和择日应用。 |
